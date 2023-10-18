@@ -1,0 +1,5 @@
+2023-10-13 13:30:25,252 INFO  Microsoft.Hosting.Lifetime.Invoke [0] - MESSAGE: Application is shutting down...
+2023-10-13 13:30:54,218 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5240
+2023-10-13 13:30:54,400 INFO  Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+2023-10-13 13:30:54,403 INFO  Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+2023-10-13 13:30:54,403 INFO  Microsoft.Hosting.Lifetime.Invoke [0] - MESSAGE: Content root path: D:\Barnabas\Projects\API\EShop\EShop

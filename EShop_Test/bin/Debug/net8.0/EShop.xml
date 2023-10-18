@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EShop</name>
+    </assembly>
+    <members>
+        <member name="M:EShop.Controllers.CartController.CreateCart(EShop.Application.Dto.Cart)">
+            <summary>
+            Add Product to Cart
+            </summary>
+            <param name="addCartRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.CartController.GetCartList(System.Int32)">
+            <summary>
+            Get card List
+            </summary>
+            <param name="CustomerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.CustomerController.GetCustomerList">
+            <summary>
+            Get Customer List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.CustomerController.CreateCustomer(EShop.Application.Dto.Customer)">
+            <summary>
+            Create customer request
+            </summary>
+            <param name="customer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.OrderController.CreateOrder(System.Int32)">
+            <summary>
+            Creates Order for Customer
+            </summary>
+            <param name="CustomerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.OrderController.GetCustomerOrder(System.Int32)">
+            <summary>
+            Get Customer order
+            </summary>
+            <param name="CustomerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.ProductController.GetProductList">
+            <summary>
+            Get Product list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.ProductController.CreateProduct(EShop.Application.Dto.Product)">
+            <summary>
+            Create Product
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.ShippingController.GetShippingData(System.Int32)">
+            <summary>
+            Get Shipping data for customer
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EShop.Controllers.ShippingController.CreateShippingData(EShop.Application.Dto.Shipping)">
+            <summary>
+            Create shipping data
+            </summary>
+            <param name="shipping"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

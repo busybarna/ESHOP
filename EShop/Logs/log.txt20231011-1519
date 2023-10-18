@@ -1,0 +1,2 @@
+2023-10-11 15:19:15,628 INFO  EShop.Controllers.CustomerController.MoveNext [29] - MESSAGE: Fetching all the GetCustomerList from the storage
+2023-10-11 15:19:15,669 INFO  EShop.Controllers.CustomerController.MoveNext [33] - MESSAGE: End Fetching all the GetCustomerList from the storage

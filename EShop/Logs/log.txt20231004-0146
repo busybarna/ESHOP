@@ -1,0 +1,2 @@
+2023-10-04 01:46:23,274 WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.? [?] - MESSAGE: Failed to determine the https port for redirect.
+2023-10-04 01:46:30,782 INFO  EShop.Controllers.CustomerController.MoveNext [29] - MESSAGE: Fetching all the GetCustomerList from the storage

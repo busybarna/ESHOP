@@ -1,0 +1,15 @@
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\bin\Debug\net8.0\EShop.Infrastracture.deps.json
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\bin\Debug\net8.0\EShop.Infrastracture.dll
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\bin\Debug\net8.0\EShop.Infrastracture.pdb
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\bin\Debug\net8.0\EShop.Core.dll
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\bin\Debug\net8.0\EShop.Core.pdb
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.csproj.AssemblyReference.cache
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.AssemblyInfoInputs.cache
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.AssemblyInfo.cs
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.csproj.CoreCompileInputs.cache
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.csproj.CopyComplete
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.dll
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\refint\EShop.Infrastracture.dll
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.pdb
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\ref\EShop.Infrastracture.dll

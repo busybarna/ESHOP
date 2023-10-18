@@ -1,0 +1,26 @@
+2023-09-28 18:13:03,547 ERROR EShop.Middleware.CustomExceptionMiddleware.ExceptionMiddleware.MoveNext [28] - MESSAGE: Something went wrong: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'INTO'.
+Must declare the scalar variable "@SCOPE_IDENTITY".
+   at EShop.Infrastracture.Persistence.DBHandler.DatabaseHandler.Insert[T](String sp, DynamicParameters parms, CommandType commandType) in D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\Persistence\DBHandler\DatabaseHandler.cs:line 104
+   at EShop.Infrastracture.Persistence.Commands.CreateOrderCommandHandler.Handle(CreateOrderCommand command, CancellationToken cancellationToken) in D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\Persistence\Commands\CreateOrderCommandHandler.cs:line 37
+   at EShop.Application.Services.OrderService.CreateOrder(Int32 CustomerId) in D:\Barnabas\Projects\API\EShop\EShop.Application\Services\OrderService.cs:line 24
+   at EShop.Controllers.OrderController.CreateOrder(Int32 CustomerId) in D:\Barnabas\Projects\API\EShop\EShop\Controllers\OrderController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at EShop.Middleware.CustomExceptionMiddleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\Barnabas\Projects\API\EShop\EShop\Middleware\CustomExceptionMiddleware\ExceptionMiddleware.cs:line 19
+ClientConnectionId:9038f009-9c53-4ada-89d2-c59c270820cf
+Error Number:156,State:1,Class:15

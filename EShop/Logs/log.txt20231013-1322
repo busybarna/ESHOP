@@ -1,0 +1,9 @@
+2023-10-13 13:22:04,276 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5240
+2023-10-13 13:22:04,409 INFO  Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+2023-10-13 13:22:04,415 INFO  Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+2023-10-13 13:22:04,415 INFO  Microsoft.Hosting.Lifetime.Invoke [0] - MESSAGE: Content root path: D:\Barnabas\Projects\API\EShop\EShop
+2023-10-13 13:22:18,217 WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.? [?] - MESSAGE: Failed to determine the https port for redirect.
+2023-10-13 13:22:18,615 INFO  EShop.Controllers.CustomerController.MoveNext [29] - MESSAGE: Fetching all the GetCustomerList from the storage
+2023-10-13 13:22:19,657 INFO  EShop.Controllers.CustomerController.MoveNext [33] - MESSAGE: End Fetching all the GetCustomerList from the storage
+2023-10-13 13:22:47,272 INFO  EShop.Controllers.CustomerController.MoveNext [29] - MESSAGE: Fetching all the GetCustomerList from the storage
+2023-10-13 13:22:49,923 INFO  EShop.Controllers.CustomerController.MoveNext [33] - MESSAGE: End Fetching all the GetCustomerList from the storage

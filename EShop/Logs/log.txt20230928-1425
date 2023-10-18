@@ -1,0 +1,6 @@
+2023-09-28 14:25:14,139 INFO  Microsoft.Hosting.Lifetime.Invoke [0] - MESSAGE: Application is shutting down...
+2023-09-28 14:25:22,747 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5240
+2023-09-28 14:25:22,783 INFO  Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+2023-09-28 14:25:22,784 INFO  Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+2023-09-28 14:25:22,784 INFO  Microsoft.Hosting.Lifetime.Invoke [0] - MESSAGE: Content root path: D:\Barnabas\Projects\API\EShop\EShop
+2023-09-28 14:25:45,956 WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.? [?] - MESSAGE: Failed to determine the https port for redirect.

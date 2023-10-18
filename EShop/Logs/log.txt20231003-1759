@@ -1,0 +1,29 @@
+2023-10-03 17:59:51,609 ERROR EShop.Middleware.CustomExceptionMiddleware.ExceptionMiddleware.MoveNext [28] - MESSAGE: Something went wrong: System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+The request failed to run because the batch is aborted, this can be caused by abort signal sent from client, or another request is running in the same session, which makes the session busy.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at EShop.Infrastracture.Persistence.DBHandler.DatabaseHandler.Insert[T](String sp, DynamicParameters parms, CommandType commandType) in D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\DBHandler\DatabaseHandler.cs:line 104
+   at EShop.Infrastructure.Repositories.CustomerRepository.CreateCustomer(CustomerEntity customerEntity) in D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\Repositories\CustomerRepository.cs:line 39
+   at EShop.Application.Commands.CreateCustomerCommandHandler.Handle(CreateCustomerCommand command, CancellationToken cancellationToken) in D:\Barnabas\Projects\API\EShop\EShop.Application\Commands\CreateCustomerCommand.cs:line 21
+   at EShop.Application.Services.CustomerService.CreateCustomer(Customer customer) in D:\Barnabas\Projects\API\EShop\EShop.Application\Services\CustomerService.cs:line 31
+   at EShop.Controllers.CustomerController.CreateCustomer(Customer customer) in D:\Barnabas\Projects\API\EShop\EShop\Controllers\CustomerController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at EShop.Middleware.CustomExceptionMiddleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\Barnabas\Projects\API\EShop\EShop\Middleware\CustomExceptionMiddleware\ExceptionMiddleware.cs:line 19
+ClientConnectionId:6113c4d9-3829-464e-bb71-6eae9126c8f9
+Error Number:-2,State:0,Class:11

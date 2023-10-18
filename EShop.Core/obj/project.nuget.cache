@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LAT3e0c362J8gonYCM2XvlPaAABr2KPON2xvGnIi5vYcbic3HgQq4E3hI97x4P78Gm6ZLqhOHTgmTOf1tIs+Og==",
+  "success": true,
+  "projectFilePath": "D:\\Barnabas\\Projects\\API\\EShop\\EShop.Core\\EShop.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\barnabasa\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512"
+  ],
+  "logs": []
+}

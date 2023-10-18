@@ -1,0 +1,12 @@
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.csproj.AssemblyReference.cache
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.AssemblyInfoInputs.cache
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.AssemblyInfo.cs
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.csproj.CoreCompileInputs.cache
+D:\Barnabas\Projects\API\EShop\EShop.Core\bin\Debug\net8.0\EShop.Core.deps.json
+D:\Barnabas\Projects\API\EShop\EShop.Core\bin\Debug\net8.0\EShop.Core.dll
+D:\Barnabas\Projects\API\EShop\EShop.Core\bin\Debug\net8.0\EShop.Core.pdb
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.dll
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\refint\EShop.Core.dll
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.pdb
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\ref\EShop.Core.dll
