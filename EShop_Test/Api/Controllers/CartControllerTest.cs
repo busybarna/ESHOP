@@ -5,6 +5,8 @@ using AutoFixture;
 using EShop.Application.IServices;
 using EShop.Controllers;
 using EShop.Application.Dto;
+using Moq;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EShop_Test.Api.Controllers;
 
@@ -42,6 +44,30 @@ public class CartControllerTest
         _cartService.GetCart(1).Returns(cartList);
         var mainresult = new CartController(_cartService, _logger);
         var result = await mainresult.GetCartList(CustomerId);
+        Assert.NotNull(result);
+    }
+    [Fact]
+    public async Task GetCartList_ReturnsOkResult()
+    {
+        // Arrange
+        int customerId = 1; 
+
+        var cartServiceMock = new Mock<ICartService>();
+        cartServiceMock.Setup(x => x.GetCart(It.IsAny<int>()))
+                       .ReturnsAsync(new List<CartItem>());
+
+        var cartController = new CartController(cartServiceMock.Object,_logger);
+
+        // Act
+        var actionResult = await cartController.GetCartList(customerId);
+
+        // Assert
+        Assert.IsType<OkObjectResult>(actionResult);
+
+        var okObjectResult = actionResult as OkObjectResult;
+        Assert.NotNull(okObjectResult);
+
+        var result = okObjectResult.Value as List<CartItem>;
         Assert.NotNull(result);
     }
 }

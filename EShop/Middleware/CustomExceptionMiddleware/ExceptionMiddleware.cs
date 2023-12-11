@@ -18,11 +18,6 @@ namespace EShop.Middleware.CustomExceptionMiddleware
             {
                 await _next(httpContext);
             }
-            catch (DivideByZeroException e)
-            {
-                 _logger.LogError($"Something went wrong: {e}");
-                await HandleExceptionAsync(httpContext, e);
-            }
             catch (Exception ex)
             {
                 _logger.LogError($"Something went wrong: {ex}");
@@ -31,13 +26,29 @@ namespace EShop.Middleware.CustomExceptionMiddleware
         }
         private async Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
+            var StatusCode = DetermineStatusCode(exception);
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
             await context.Response.WriteAsync(new ErrorDetails()
             {
-                StatusCode = context.Response.StatusCode,
-                Message = "Internal Server Error from the custom middleware."
+                StatusCode = StatusCode,
+                Message = exception.Message
             }.ToString());
+        }
+        private int DetermineStatusCode(Exception exception)
+        {
+            if (exception is ArgumentException)
+            {
+                return (int)HttpStatusCode.BadRequest;
+            }
+            else if (exception is UnauthorizedAccessException)
+            {
+                return (int)HttpStatusCode.Unauthorized;
+            }
+            else
+            {
+                return (int)HttpStatusCode.InternalServerError;
+            }
         }
     }
 }

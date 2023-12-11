@@ -8,6 +8,7 @@ using NSubstitute;
 using EShop.Application.Services;
 using EShop.Core.Entities;
 using EShop.Application.Commands;
+using Moq;
 
 namespace EShop_Test.Application.Services;
 public class CartServiceTest
@@ -42,6 +43,7 @@ public class CartServiceTest
         // Assert
         Assert.Null(resl);
     }
+    
     [Fact]
     public async Task CreateCart_NotNullTest()
     {
