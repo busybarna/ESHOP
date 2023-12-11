@@ -27,7 +27,6 @@ namespace EShop.Extensions
             serviceCollection.AddScoped<IDapper, DatabaseHandler>();
             serviceCollection.AddAutoMapper(typeof(ApplicationMapper));
             serviceCollection.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CustomerQuery).Assembly));
-            //serviceCollection.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetProductListQueryHandler).Assembly));
             return serviceCollection;
         }
     }
