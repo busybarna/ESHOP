@@ -15,3 +15,4 @@ D:\Barnabas\Projects\API\EShop\EShop.Application\obj\Debug\net8.0\EShop.Applicat
 D:\Barnabas\Projects\API\EShop\EShop.Application\obj\Debug\net8.0\ref\EShop.Application.dll
 D:\Barnabas\Projects\API\EShop\EShop.Application\bin\Debug\net8.0\EShop.Infrastracture.dll
 D:\Barnabas\Projects\API\EShop\EShop.Application\bin\Debug\net8.0\EShop.Infrastracture.pdb
+D:\Barnabas\Projects\API\EShop\EShop.Application\obj\Debug\net8.0\EShop.Application.sourcelink.json

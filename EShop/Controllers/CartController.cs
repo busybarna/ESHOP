@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using EShop.Application.IServices;
-using Microsoft.AspNetCore.Authorization;
 using OnlineLibraryShop.Application.Validation;
 using EShop.Application.Dto;
 
@@ -9,7 +8,6 @@ namespace EShop.Controllers
     [ApiController]
     [Route("api/[controller]")]
     [Produces("application/json")]
-    //[Authorize(AuthenticationSchemes = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme)]
     public class CartController : ControllerBase
     {
          private readonly ICartService _cartService;

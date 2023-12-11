@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using EShop.Application.IServices;
 using EShop.Application.Validation;
-using Microsoft.AspNetCore.Authorization;
 using EShop.Application.Dto;
 
 namespace EShop.Controllers
@@ -9,7 +8,6 @@ namespace EShop.Controllers
     [ApiController]
     [Route("api/[controller]")]
     [Produces("application/json")]
-    //[Authorize(AuthenticationSchemes = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme)]
     public class CustomerController : ControllerBase
     {
          private readonly ICustomerService _customerService;

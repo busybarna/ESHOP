@@ -3,9 +3,9 @@ using Moq;
 using EShop.Core.Interfaces;
 using EShop.Core.Entities;
 using EShop.Application.Queries;
-using EShop.Application.Dto;
 
-public class GetCustomerOrderQueryHandlerTest
+namespace EShop_Test.Application.Queries;
+public class CustomerOrderQueryTest
 {
     [Fact]
     public async Task Handle_WhenCalled_ShouldReturnListOfOrders()

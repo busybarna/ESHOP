@@ -13,7 +13,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();  
 builder.Services.AddApplicationServices();
 builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
 // Enable Swagger   
 builder.Services.AddSwaggerGen(swagger =>  
 {  
@@ -29,24 +28,6 @@ builder.Services.AddSwaggerGen(swagger =>
     swagger.IncludeXmlComments(xmlPath);
 });  
 
-// builder.Services.AddAuthentication(option =>  
-// {  
-//     option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;  
-//     option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;  
-
-// }).AddJwtBearer(options =>  
-// {  
-//     options.TokenValidationParameters = new TokenValidationParameters  
-//     {  
-//         ValidateIssuer = true,  
-//         ValidateAudience = true,  
-//         ValidateLifetime = false,  
-//         ValidateIssuerSigningKey = true,  
-//         ValidIssuer = builder.Configuration["Jwt:Issuer"],  
-//         ValidAudience = builder.Configuration["Jwt:Audience"],  
-//         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"]))
-//     };  
-// });  
 builder.Logging.AddLog4Net("log4net.config");
 
 var app = builder.Build();

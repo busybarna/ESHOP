@@ -3,7 +3,8 @@ using EShop.Core.Interfaces;
 using Moq;
 using Xunit;
 
-public class CreateOrderCommandHandlerTest
+namespace EShop_Test.Application.Commands;
+public class CreateOrderCommandTest
 {
     [Fact]
     public async Task Handle_ReturnsTrueOnSuccessfulCreation()

@@ -8,6 +8,7 @@ using EShop.Core.Entities;
 using NSubstitute;
 using EShop.Application.Commands;
 
+namespace EShop_Test.Application.Services;
 public class OrderServiceTest
 {
     private readonly IMediator _mediator;

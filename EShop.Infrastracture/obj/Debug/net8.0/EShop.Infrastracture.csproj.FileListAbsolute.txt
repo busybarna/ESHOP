@@ -13,3 +13,4 @@ D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infra
 D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\refint\EShop.Infrastracture.dll
 D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.pdb
 D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\ref\EShop.Infrastracture.dll
+D:\Barnabas\Projects\API\EShop\EShop.Infrastracture\obj\Debug\net8.0\EShop.Infrastracture.sourcelink.json

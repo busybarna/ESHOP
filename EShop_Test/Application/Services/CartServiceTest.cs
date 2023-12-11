@@ -9,6 +9,7 @@ using EShop.Application.Services;
 using EShop.Core.Entities;
 using EShop.Application.Commands;
 
+namespace EShop_Test.Application.Services;
 public class CartServiceTest
 {
     private readonly IMediator _mediator;

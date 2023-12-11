@@ -4,7 +4,8 @@ using EShop.Core.Interfaces;
 using EShop.Core.Entities;
 using EShop.Application.Queries;
 
-public class GetShippingQueryHandlerTest
+namespace EShop_Test.Application.Queries;
+public class ShippingQueryTest
 {
     [Fact]
     public async Task Handle_WhenCalled_ShouldReturnListOfShippingData()

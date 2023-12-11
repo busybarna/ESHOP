@@ -5,7 +5,8 @@ using Moq;
 using Xunit;
 using AutoFixture;
 
-public class CreateCartCommandHandlerTest
+namespace EShop_Test.Application.Commands;
+public class CreateCartCommandTest
 {
     [Fact]
     public async Task Handle_ReturnsTrueOnSuccessfulCreation()

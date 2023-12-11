@@ -10,8 +10,7 @@ using EShop.Application.Services;
 using EShop.Application.Dto;
 using EShop.Core.Entities;
 
-namespace EShop_Test;
-
+namespace EShop_Test.Application.Services;
 public class CustomerServiceTest
 {
     private readonly IMediator _mediator;

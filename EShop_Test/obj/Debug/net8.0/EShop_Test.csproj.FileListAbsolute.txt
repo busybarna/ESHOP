@@ -161,3 +161,4 @@ D:\Barnabas\Projects\API\EShop\EShop_Test\obj\Debug\net8.0\ref\EShop_Test.dll
 D:\Barnabas\Projects\API\EShop\EShop_Test\bin\Debug\net8.0\EShop.xml
 D:\Barnabas\Projects\API\EShop\EShop_Test\bin\Debug\net8.0\AutoFixture.dll
 D:\Barnabas\Projects\API\EShop\EShop_Test\bin\Debug\net8.0\Fare.dll
+D:\Barnabas\Projects\API\EShop\EShop_Test\obj\Debug\net8.0\EShop_Test.sourcelink.json

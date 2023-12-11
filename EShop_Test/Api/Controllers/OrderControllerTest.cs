@@ -5,7 +5,7 @@ using EShop.Application.IServices;
 using EShop.Controllers;
 using EShop.Application.Dto;
 
-namespace EShop_Test;
+namespace EShop_Test.Api.Controllers;
 
 public class OrderControllerTest
 {

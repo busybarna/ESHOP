@@ -10,3 +10,4 @@ D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.dll
 D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\refint\EShop.Core.dll
 D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.pdb
 D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\ref\EShop.Core.dll
+D:\Barnabas\Projects\API\EShop\EShop.Core\obj\Debug\net8.0\EShop.Core.sourcelink.json

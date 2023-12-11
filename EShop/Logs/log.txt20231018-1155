@@ -1,0 +1,4 @@
+2023-10-18 11:55:30,412 INFO  EShop.Controllers.CustomerController.MoveNext [29] - MESSAGE: Fetching all the GetCustomerList from the storage
+2023-10-18 11:55:30,435 INFO  EShop.Controllers.CustomerController.MoveNext [33] - MESSAGE: End Fetching all the GetCustomerList from the storage
+2023-10-18 11:55:44,772 INFO  EShop.Controllers.CartController.MoveNext [31] - MESSAGE: Creating cart to the storage
+2023-10-18 11:55:44,906 INFO  EShop.Controllers.CartController.MoveNext [44] - MESSAGE: End cart to the storage

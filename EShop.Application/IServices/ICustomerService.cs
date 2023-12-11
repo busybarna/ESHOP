@@ -6,6 +6,5 @@ namespace EShop.Application.IServices
     {
         Task<List<Customer>> GetCustomerList();
         Task<bool> CreateCustomer(Customer customer);
-        //Task<DataResult> CreateShipping(ShippingRequest shippingRequest);
     }
 }
